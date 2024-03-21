@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>student registration form </title>
+</head>
+<body>
+	<center><h1>student registration form </h1></center>
+	<table width="100%" border=" 1">
+				
+		
+		<tr>
+			<th>student</th>
+			<th> staff</th>
+			<th>salary</th>
+			<th>library</th>
+			<th>logout</th>
+		</tr>
+	</table>
+		
+	<form >
+		<table border="1" width="100%">
+			
+		<tr>
+			<th>
+				<label> name:</label>
+			</th>
+			<td>
+			     <input type="text" name="fld_student_name" id="fld_student_name" placeholder="enter your name" pattern="[a-zA-Z\s]+"><br><br>
+           </td>
+
+           <th> 
+           	     <label> father name:</label>
+           </th>
+           <td>
+           	   <input type="text" name="fld_student_fathername" id="fld_student_fathername" placeholder="enter your  father name" >
+           </td>
+        
+        <tr>
+        	<th> 
+                 <label> address:</label>
+        	</th>
+        	<td>
+                <textarea rows="4" name="fld_student_address" id="fld_student_address" placeholder="enter your address"></textarea>
+        	</td>
+        	<th>
+        		<label>address2:</label>
+        		<td>
+        			<textarea rows="3" name="fld_student_address2" id="fld_student_address2" placeholder="enter your address2" ></textarea>
+        		</td>
+        	</th>
+        </tr>
+        <tr>
+
+        	<th>
+				<label> dob:</label>
+			</th>
+			<td>
+			     <input type="date" name="fld_student_dob" id="fld_student_dob">
+           </td>
+
+           <th>
+           	<label>addmission date:</label>
+           </th>
+           <td>
+           	 <input type="date" name="fld_student_addmission_date" id="fld_student_addmission_date" >
+           	 
+           </td>
+        </tr>
+
+        <tr>
+        	<th>
+        		<label>city:</label>
+        	</th>
+        	<td>
+        		<select name="fld_student_city" id="fld_student_city">
+        			<option value="">select city</option>
+        			<option value="nashik">nashik</option>
+        			<option value="mumbai">mumbai</option>
+        			<option value="pune">pune</option>
+        		</select>
+        	</td>
+        	<th>
+        		<label>state:</label>
+        	</th>
+        	<td>
+                 <select name="fld_student_state" id="fld_student_state">
+                 	<option value="">select state</option>
+                 	<option value="maharashtra">maharashtra</option>
+                 	<option value="uk">uk</option>
+                 	<option value="assam">assam</option>
+
+
+                 	
+                 </select>
+        	</td>
+        </tr>
+
+        <tr>
+        	<th>
+        		<label>country:</label>
+        	</th>
+        	<td>
+        		<select name="fld_student_country" id="fld_student_country">
+        			<option value="">select country</option>
+        			<option value="india">india</option>
+        			 <option value="US">US</option>
+        			 <option value="japan">japan</option>
+        		</select>
+        	</td>
+        	<th>
+        		<label>nationality</label>
+        	</th>
+        	<td>
+        		<select name="fld_student_nationality" id="fld_student_nationality">
+        			<option value="">select nationality</option>
+        			<option value="indian">indian</option>
+        			<option value="japanies">japanies</option>
+        			<option value="chiness">chiness</option>
+        			
+        		</select>
+        	</td>
+        </tr>
+        <tr>
+        	<th>
+        		<label>gender:</label>
+        	</th>
+        	<td>
+        		<input type="radio" name="fld_student_gender" id="fld_student_gender1" value="male">male
+        		<input type="radio" name="fld_student_gender" id="fld_student_gender2" value="female">female
+        	</td>
+        	<th>
+        		<label>qualification:</label>
+        	</th>
+        	<td>
+        		<input type="checkbox" name="fld_student_qualification" id="fld_student_qualification1" value="B.E">B.E
+        		<input type="checkbox" name="fld_student_qualification" id="fld_student_qualification2" value="M.E">M.E
+        		<input type="checkbox" name="fld_student_qualification" id="fld_student_qualification3" value="M.TECH">M.TECH
+        	</td>
+        </tr>
+        <tr>
+        	<th>
+        		<label>courses :</label>
+        	</th>
+        	<td>
+        		<select name="fld_student_courses" id="fld_student_course">
+        			<option value="">select courses</option>
+        			<option value="computer">computer</option>
+        			<option value="ch">ch</option>
+        			
+        		</select
+           	</td>
+        	<th>
+        		<label>photos:</label>
+        	</th>
+        	<td>
+        		<input type="file" name="fld_student_photo" id="fld_student_photo" accept=".jpg,.png,.jepg" placeholder="no file selected">
+        	</td>
+        </tr>
+        <tr>
+        	<th>
+        		<label>hobbies:</label>
+        	</th>
+        	<td>
+        		<textarea rows="4" name="fld_student_hobbies" id="fld_student_hobbies" placeholder="enter your hobbies"></textarea>
+        	</td>
+
+        	<th>
+        		<label>mobile:</label>
+        	</th>
+        	<td>
+        		<input type="text" name="fld_student_mobile" id="fld_student_mobile" placeholder="enter your mobile number" maxlength="10" minlength="10">
+        	</td>
+        </tr>
+        <tr>
+        	<td colspan="4">
+        		<center><button type="submit" name="submit">submit</button>
+        			
+        		</center>
+        		
+        	</td>
+        </tr>
+
+
+	</form>
+</body>
+</html
+	
+
+		
+
+
+
+</body>
+</html>
